@@ -1,0 +1,33 @@
+{
+  "name": "zzf-cli",
+  "version": "1.0.0",
+  "description": "this is a project about cli",
+  "main": "cli.js",
+  "bin": {
+    "zzf": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "zzf",
+    "email": "zhuzhifen_zzf@163.com"
+  },
+  "keywords": [
+    "zzf-cli",
+    "zzf",
+    "脚手架"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.3.3",
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^11.1.0",
+    "inquirer": "^9.1.4",
+    "ora": "^6.1.2",
+    "util": "^0.12.5"
+  }
+}
